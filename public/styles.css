@@ -1,6 +1,85 @@
-body{
-  background: red;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    height: 100vh;
+    border: 5px solid #d40000;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /* background-image: url("../CoinFlipbackground.jpg"); */
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: left; */
+    /* background: linear-gradient(to bottom,  #333 , black); */
+
+}
+
+h1 {
+    color: #d40000;
+    text-align: center;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+
+.webApp{
+  border: 5px solid red;
+  display: flex;
+  flex-direction: row;
+  background-color: #d40000;
+  border-radius: 5px;
+}
+
+img{
+  border: 5px dotted red;
+  width: 20em;
+  height: 24em;
+}
+
+.left{
+  /* border: 5px solid green; */
+  width: 50%;
+}
+
+.right{
+  /* border: 5px solid blue; */
+  width: 50%;
+}
+
 h3{
-  margin-top: 40px;
+  font-size: 3rem;
+}
+button{
+  color: red;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  background-color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+  /* color: white; */
+  border-radius: 5px;
+  border: 2px solid #000000;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  /* background-color: #2E5C37; */
+}
+
+
+
+button {
+    margin-bottom: 1em;
 }
